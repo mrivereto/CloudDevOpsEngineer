@@ -26,3 +26,13 @@ If you try to use create-stack command you will get an error like:
 ```
 An error occurred (AlreadyExistsException) when calling the CreateStack operation: Stack [myfirsttest] already exists
 ```
+
+## Shell script to create stack
+You can use this script to create your stack
+```
+./create.sh <name of stack> <your yaml file path> <your parameter file path>
+```
+or use this script to update the stack
+```
+./update.sh <name of stack> <your yaml file path> <your parameter file path>
+```
